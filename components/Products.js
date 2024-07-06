@@ -16,9 +16,9 @@ export function Product(item,arr) {
     img_basket.alt = 'basket'
     img_basket.id = 'basket'
 
-    td_NO.innerHTML = item.num + 1
+    td_NO.innerHTML = item.number + 1
     td_Name.innerHTML = item.name
-    td_age.innerHTML = years_old - item.td_age
+    td_age.innerHTML = years_old - item.age
 
     tr.append(td_NO,td_Name,td_age,td_img)
     td_img.append(img_pererabotka, img_basket)
